@@ -36,7 +36,8 @@ pip install -r requirements.txt
 
 Large files (`shc_data/`, `rfr_joblib/`, `rfr_csv/`) are not tracked in this repo.
 
-📥 **Download from Google Drive:** [PASTE YOUR LINK HERE]
+📥 **Download from Google Drive:** [Data](https://drive.google.com/file/d/1RU_stGcUCIZv2ty1cofOmqldeKSbg7GA/view?usp=sharing)
+
 
 The archive contains:
 - `shc_data/` — Raw and normalised Soil Health Card data (2023–24)
