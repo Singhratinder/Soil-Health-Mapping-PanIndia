@@ -1,0 +1,35 @@
+# ==========================================
+# SOIL HEALTH MAPPING - GLOBAL CONFIGURATION
+# ==========================================
+
+parameters:
+  start_date: "2023-07-01"
+  end_date: "2024-06-30"
+  crop_labels: [8, 9, 10, 11]
+  rf_n_estimators: 10
+  rf_max_depth: 16
+  num_processes: 12
+
+paths:
+  data_dir: "./shc_data"
+  years_dir: "YEAR_WISE_DATA"
+  output_dir: "NORMALISED_DATA"
+  output_sub_dir: "AGRI_2023-24"
+  satellite_dir: "SATELLITE_DATA"
+  aez_data_dir: "./shc_data/AEZS/AGRI_2023-24"
+  lulc_download_dir: "./LULC"
+  nirv_ph_download_dir: "./NIRV_pH"
+  plots_dir: "./plots"
+  stats_dir: "./stats"
+  models_joblib_dir: "./rfr_joblib"
+  models_csv_dir: "./rfr_csv"
+
+gee:
+  project_id: "ee-mtpictd-ratinder-mcs"
+  state_asset_path: "projects/ee-mtpictd-aakash-mcs/assets/state"  
+  lulc_asset_path: "projects/corestack-datasets/assets/datasets/LULC_v3_river_basin/pan_india_lulc_v3_2023_2024"
+  aez_asset_path: "projects/ee-aakash312000/assets/Agro_Ecological_Regions"
+  
+gdrive_exports:
+  lulc_folder: "GEE_LULC_All_AEZs_ratinder"
+  nirv_ph_folder: "GEE_NIRV_pH_All_AEZs_ratinder"

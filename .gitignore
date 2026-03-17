@@ -1,0 +1,26 @@
+# ── Heavy data & model directories (on Google Drive instead) ──
+shc_data/
+rfr_joblib/
+rfr_csv/
+
+# ── Archive zip ───────────────────────────────────────────────
+Archive.zip
+
+# ── Output folders ────────────────────────────────────────────
+plots/
+stats/
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+shc-env/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
