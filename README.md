@@ -59,12 +59,3 @@ AEZ 2 through 19 (18 zones), predicting **N, P, K, OC** per zone.
 All paths and parameters are centralised in `config.yaml`.
 
 ---
-
-## Utils
-
-| File | Purpose |
-|------|---------|
-| `utils/fetch_features.py` | GEE feature fetching helpers |
-| `utils/get_feature_info.py` | Feature metadata utilities |
-| `utils/get_layer_info.py` | Layer info helpers |
-| `utils/segregate_by_aez.py` | AEZ-wise data segregation logic |
