@@ -9,6 +9,9 @@ parameters:
   rf_n_estimators: 10
   rf_max_depth: 16
   num_processes: 12
+  target_nutrients: ["N", "P", "K", "OC"]
+  target_aezs: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+  # target_aezs: [3]
 
 paths:
   data_dir: "./shc_data"
